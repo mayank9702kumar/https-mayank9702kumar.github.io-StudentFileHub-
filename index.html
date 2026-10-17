@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudentFileHub – Assignment Formatting, PDF &amp; Printing Help for College Students</title>
+<meta name="description" content="StudentFileHub helps college students with assignment formatting, practical-file layouts, project report formatting, PDF preparation, printing and hard-copy delivery. Order on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📒</text></svg>">
+<style>
+:root{--purple:#5b2fd6;--purple-d:#3f1fa3;--blue:#2563eb;--yellow:#ffd23f;--ink:#1d1840;--muted:#524d73;--paper:#fffdf6;--line:#cfd8ff;--white:#fff;--green:#128c4a;
+--font:ui-rounded,"Segoe UI",system-ui,-apple-system,"Trebuchet MS",Roboto,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);line-height:1.6}
+a{color:var(--blue)}h1,h2,h3{line-height:1.2;margin:0 0 .5rem}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
+section{padding:3.5rem 0}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);color:var(--purple-d)}
+.sub{color:var(--muted);max-width:60ch;margin:0 0 1.8rem}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+header{position:sticky;top:0;z-index:20;background:var(--white);border-bottom:3px solid var(--yellow)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem 0;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.25rem;color:var(--purple);text-decoration:none}
+.logo span{background:var(--yellow);color:var(--ink);padding:0 .35rem;border-radius:.4rem}
+nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+nav ul a:hover{color:var(--purple)}
+.btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;text-decoration:none;padding:.8rem 1.4rem;border-radius:999px;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:var(--green);color:#fff}
+.btn-alt{background:var(--white);color:var(--purple-d);border:2px solid var(--purple)}
+.btn-sm{padding:.5rem 1rem;font-size:.9rem}
+/* hero: ruled notebook page with margin line */
+.hero{background:repeating-linear-gradient(transparent 0 35px,var(--line) 35px 36px),var(--white);position:relative;padding:4rem 0 4.5rem;overflow:hidden}
+.hero::before{content:"";position:absolute;left:clamp(1rem,5vw,3.5rem);top:0;bottom:0;width:2px;background:#ff8fa3}
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;padding-left:clamp(2.5rem,8vw,5rem)}
+.hero h1{font-size:clamp(2.1rem,6vw,3.6rem);color:var(--purple-d);background:linear-gradient(transparent 62%,var(--yellow) 62%);display:inline;padding:0 .2rem}
+.hero p{font-size:1.1rem;max-width:52ch;margin:1.2rem 0;background:rgba(255,255,255,.85)}
+.tag{font-weight:700;color:var(--blue);margin-bottom:.6rem}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap}
+.stack{position:relative;height:260px;display:grid;place-items:center}
+.stack div{position:absolute;font-size:5rem;background:var(--white);border:3px solid var(--purple);border-radius:1.2rem;width:130px;height:130px;display:grid;place-items:center;box-shadow:6px 6px 0 var(--yellow)}
+.stack div:nth-child(1){transform:rotate(-9deg) translate(-60px,-30px);background:#ede7ff}
+.stack div:nth-child(2){transform:rotate(7deg) translate(70px,-10px);background:#e3edff}
+.stack div:nth-child(3){transform:rotate(-3deg) translate(0,70px);box-shadow:6px 6px 0 var(--blue);animation:bob 4s ease-in-out infinite}
+@keyframes bob{50%{transform:rotate(-3deg) translate(0,62px)}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:1.2rem}
+.card{background:var(--white);border:2px solid #e4defa;border-radius:1.2rem;padding:1.4rem;display:flex;flex-direction:column;gap:.4rem}
+.card .ic{font-size:2rem}
+.card h3{font-size:1.1rem;color:var(--purple-d)}
+.card p{margin:0;color:var(--muted);flex:1}
+.price{font-weight:800;color:var(--blue);margin:.4rem 0}
+.alt{background:#f1edff}
+.benefit{border-left:6px solid var(--yellow)}
+.steps{counter-reset:s;list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.2rem}
+.steps li{counter-increment:s;background:var(--white);border-radius:1.2rem;padding:1.4rem 1.2rem 1.2rem;border:2px solid #e4defa;position:relative}
+.steps li::before{content:counter(s);position:absolute;top:-16px;left:1rem;background:var(--purple);color:#fff;font-weight:800;width:34px;height:34px;border-radius:50%;display:grid;place-items:center}
+table{width:100%;border-collapse:collapse;background:var(--white);border-radius:1rem;overflow:hidden;border:2px solid #e4defa}
+th,td{text-align:left;padding:.9rem 1rem;border-bottom:1px solid #e4defa}
+th{background:var(--purple);color:#fff}
+.tw{overflow-x:auto}
+.note{background:#fff6cc;border-left:6px solid var(--yellow);padding:.9rem 1rem;border-radius:.6rem;margin-top:1rem}
+details{background:var(--white);border:2px solid #e4defa;border-radius:1rem;padding:.9rem 1.1rem;margin-bottom:.7rem}
+summary{cursor:pointer;font-weight:700;color:var(--purple-d)}
+details p{margin:.6rem 0 0;color:var(--muted)}
+form{background:var(--white);border:2px solid #e4defa;border-radius:1.2rem;padding:1.4rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+label{display:grid;gap:.3rem;font-weight:600;font-size:.92rem}
+input,select{font:inherit;padding:.65rem .8rem;border:2px solid #c9c0ee;border-radius:.7rem;background:#fff}
+form .full{grid-column:1/-1}
+#setup{display:none;background:#fff6cc;border-bottom:3px solid var(--yellow);padding:.7rem 1.25rem;text-align:center;font-size:.9rem}
+footer{background:var(--purple-d);color:#e9e4ff;padding:2rem 0;font-size:.92rem}
+footer a{color:var(--yellow)}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.stack{height:200px}.stack div{width:100px;height:100px;font-size:3.6rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div id="setup" role="status">Setup needed: the WhatsApp number is not set yet. The site owner should edit <code>WHATSAPP_NUMBER</code> in the CONFIG block at the bottom of this file.</div>
+
+<header>
+<div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#top"><span data-biz>StudentFileHub</span></a>
+<ul>
+<li><a href="#services">Services</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#process">How it works</a></li><li><a href="#delivery">Delivery</a></li><li><a href="#about">About</a></li><li><a href="#faq">FAQ</a></li>
+</ul>
+<a class="btn btn-wa btn-sm" data-wa href="#">Order on WhatsApp</a>
+</nav></div>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+<div class="wrap">
+<div>
+<div class="tag">“Your College Work, Simplified.”</div>
+<h1 id="h1">Your Student Work, Made Simple!</h1>
+<p>Get help with assignment formatting, practical-file layouts, project reports, PDF preparation and printing services — all in one place.</p>
+<div class="cta">
+<a class="btn btn-wa" data-wa href="#">Order on WhatsApp</a>
+<a class="btn btn-alt" href="#services">Explore Our Services</a>
+</div>
+</div>
+<div class="stack" aria-hidden="true"><div>📒</div><div>🎓</div><div>✏️</div></div>
+</div>
+</section>
+
+<section id="services" aria-labelledby="sv">
+<div class="wrap">
+<h2 id="sv">Our services</h2>
+<p class="sub">We help you format, print and deliver your own work. You stay responsible for the content of your assessed assignments.</p>
+<div class="grid" id="serviceGrid"></div>
+</div>
+</section>
+
+<section class="alt" aria-labelledby="bn">
+<div class="wrap">
+<h2 id="bn">Why students use StudentFileHub</h2>
+<p class="sub">Less time fighting margins and page numbers, more time on the work that matters.</p>
+<div class="grid">
+<div class="card benefit"><div class="ic">⏱️</div><h3>Save time</h3><p>Skip hours of formatting, layout fixes and print-shop visits.</p></div>
+<div class="card benefit"><div class="ic">💬</div><h3>Simple ordering</h3><p>Send your requirements on WhatsApp. No sign-up or login needed.</p></div>
+<div class="card benefit"><div class="ic">🔎</div><h3>Clear pricing</h3><p>Starting prices are shown up front. Final price is confirmed before you pay.</p></div>
+<div class="card benefit"><div class="ic">📄</div><h3>PDF or hard copy</h3><p>Choose a digital file, a printed copy, or both.</p></div>
+</div>
+</div>
+</section>
+
+<section id="process" aria-labelledby="pr">
+<div class="wrap">
+<h2 id="pr">How to order</h2>
+<p class="sub">Four steps from message to finished file.</p>
+<ol class="steps">
+<li><h3>Choose a service</h3>Pick what you need from the list above.</li>
+<li><h3>Send requirements</h3>Share your details and files through WhatsApp.</li>
+<li><h3>Confirm the deal</h3>Agree on the price, deadline and payment arrangements.</li>
+<li><h3>Receive your work</h3>Get the PDF online, or arrange hard-copy pickup or delivery.</li>
+</ol>
+<p class="note">Delivery depends on your location and service availability.</p>
+</div>
+</section>
+
+<section class="alt" id="pricing" aria-labelledby="pc">
+<div class="wrap">
+<h2 id="pc">Sample price list</h2>
+<p class="sub">These are example prices and may change.</p>
+<div class="tw"><table>
+<thead><tr><th scope="col">Service</th><th scope="col">Price</th></tr></thead>
+<tbody id="priceBody"></tbody>
+</table></div>
+<p class="note">Final prices depend on page count, complexity, materials and delivery location. You will always get the exact price before confirming.</p>
+</div>
+</section>
+
+<section id="delivery" aria-labelledby="dl">
+<div class="wrap">
+<h2 id="dl">Delivery information</h2>
+<div class="grid" style="margin-top:1rem">
+<div class="card"><div class="ic">📲</div><h3>Digital delivery</h3>
+<p>PDF delivery through WhatsApp or email.<br>Confirm the file format and deadline before ordering.</p></div>
+<div class="card"><div class="ic">📦</div><h3>Hard-copy delivery</h3>
+<p>Printing and binding through a local print partner.<br>Pickup or third-party delivery where available.<br>Delivery charges are shared before you confirm.</p></div>
+</div>
+</div>
+</section>
+
+<section class="alt" id="enquiry" aria-labelledby="en">
+<div class="wrap">
+<h2 id="en">Prepare your WhatsApp enquiry</h2>
+<p class="sub">This is not an order form and nothing is stored or sent from this page. Fill in what you know and the button opens WhatsApp with your message ready. You still press Send in WhatsApp.</p>
+<form id="enqForm">
+<label>Service
+<select id="fService"></select></label>
+<label>Subject
+<input id="fSubject" type="text" placeholder="e.g. Physics"></label>
+<label>Number of pages
+<input id="fPages" type="number" min="1" placeholder="e.g. 20"></label>
+<label>Format
+<select id="fFormat"><option>PDF</option><option>Hard Copy</option><option>PDF and Hard Copy</option></select></label>
+<label>Required date
+<input id="fDate" type="date"></label>
+<label>Delivery preference
+<input id="fDelivery" type="text" placeholder="e.g. Pickup / Delivery"></label>
+<div class="full"><button class="btn btn-wa" type="submit">Open WhatsApp with this message</button></div>
+</form>
+</div>
+</section>
+
+<section id="about" aria-labelledby="ab">
+<div class="wrap">
+<h2 id="ab">About us</h2>
+<p class="sub">StudentFileHub exists to make college document formatting and printing more convenient. We take care of layouts, typing, PDFs and print-ready files so you can submit neat, well-presented work. We support learning and presentation. Your assessed work stays your own.</p>
+<div class="grid">
+<div class="card"><h3>WhatsApp</h3><p>Fastest way to reach us.</p><a class="btn btn-wa btn-sm" data-wa href="#">Chat on WhatsApp</a></div>
+<div class="card"><h3>Email</h3><p data-email>your-email@example.com (placeholder)</p></div>
+<div class="card"><h3>Service area</h3><p data-area>[Your city / campus area]</p></div>
+<div class="card"><h3>Business hours</h3><p data-hours>[Add your hours, e.g. Mon–Sat, 10am–7pm]</p></div>
+</div>
+</div>
+</section>
+
+<section class="alt" id="faq" aria-labelledby="fq">
+<div class="wrap">
+<h2 id="fq">Frequently asked questions</h2>
+<div style="margin-top:1rem">
+<details><summary>Do you write my assignments for me?</summary><p>No. We format, type from your content, prepare PDFs and print. The academic work itself remains yours.</p></details>
+<details><summary>How do I pay?</summary><p>Payment arrangements are agreed on WhatsApp before work begins.</p></details>
+<details><summary>How long does it take?</summary><p>It depends on page count and complexity. We confirm the deadline with you before you order.</p></details>
+<details><summary>Is the price on this page final?</summary><p>No. Listed prices are starting points. The final price depends on pages, complexity, materials and delivery location.</p></details>
+<details><summary>Can I get a printed copy?</summary><p>Yes, through a local print partner, with pickup or third-party delivery where available.</p></details>
+<details><summary>Do I need an account?</summary><p>No. Just message us on WhatsApp.</p></details>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">
+<strong data-biz>StudentFileHub</strong> – Your College Work, Simplified.<br>
+<a data-wa href="#">Order on WhatsApp</a> · <a href="#services">Services</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a>
+<p>Sample prices and placeholders only. Students remain responsible for their own assessed work.</p>
+</div></footer>
+
+<script>
+/* ============ CONFIG: edit everything here ============ */
+const CONFIG = {
+  BUSINESS_NAME: "StudentFileHub",
+  WHATSAPP_NUMBER: "YOURNUMBER",   // digits only, e.g. "9876543210". Country code 91 is added automatically.
+  COUNTRY_CODE: "91",
+  EMAIL: "your-email@example.com (placeholder)",
+  SERVICE_AREA: "[Your city / campus area]",
+  HOURS: "[Add your hours, e.g. Mon–Sat, 10am–7pm]",
+  SERVICES: [
+    { icon:"📝", name:"Assignment Formatting and Typing", desc:"Clean layout, headings, fonts and page numbers for your assignments.", price:"₹30 onwards" },
+    { icon:"📒", name:"Practical-File Layout and Formatting", desc:"Neat practical-file pages with index, aim, diagrams and consistent layout.", price:"₹150 onwards" },
+    { icon:"📊", name:"Project Report Formatting", desc:"Title page, contents, chapters, references and professional formatting.", price:"₹80 onwards" },
+    { icon:"📄", name:"PDF Preparation and Formatting", desc:"Merge, order and compress your files into a clean, submission-ready PDF.", price:"Get a Quote" },
+    { icon:"🖨️", name:"Printing and Binding", desc:"Printed and bound copies through a local print partner.", price:"Custom quotation" },
+    { icon:"🚚", name:"Hard-Copy Delivery", desc:"Pickup or third-party delivery where available.", price:"Actual delivery charge" }
+  ]
+};
+/* ======================================================== */
+
+const configured = /^\d{10}$/.test(CONFIG.WHATSAPP_NUMBER);
+const defaultMsg = (o={}) =>
+`Hello ${CONFIG.BUSINESS_NAME}! I would like to enquire about your services.
+
+Service: ${o.service||""}
+Subject: ${o.subject||""}
+Number of pages: ${o.pages||""}
+Format: ${o.format||"PDF or Hard Copy"}
+Required date: ${o.date||""}
+Delivery preference: ${o.delivery||""}
+
+Please share the price and availability.`;
+const waUrl = (msg) => `https://wa.me/${CONFIG.COUNTRY_CODE}${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+
+function openWA(msg){
+  if(!configured){ document.getElementById("setup").style.display="block"; window.scrollTo({top:0,behavior:"smooth"}); return; }
+  window.open(waUrl(msg),"_blank","noopener");
+}
+function bindWA(el, service){
+  el.href = configured ? waUrl(defaultMsg({service})) : "#setup";
+  el.target = "_blank"; el.rel = "noopener";
+  el.addEventListener("click", e => { if(!configured){ e.preventDefault(); openWA(); } });
+}
+
+document.querySelectorAll("[data-biz]").forEach(e=>e.textContent=CONFIG.BUSINESS_NAME);
+document.querySelector("[data-email]").textContent = CONFIG.EMAIL;
+document.querySelector("[data-area]").textContent = CONFIG.SERVICE_AREA;
+document.querySelector("[data-hours]").textContent = CONFIG.HOURS;
+document.querySelectorAll("a[data-wa]").forEach(a=>bindWA(a));
+
+const grid = document.getElementById("serviceGrid"), sel = document.getElementById("fService"), body = document.getElementById("priceBody");
+CONFIG.SERVICES.forEach(s=>{
+  const c = document.createElement("article"); c.className="card";
+  c.innerHTML = `<div class="ic" aria-hidden="true">${s.icon}</div><h3>${s.name}</h3><p>${s.desc}</p><div class="price">${s.price}</div>`;
+  const b = document.createElement("a"); b.className="btn btn-alt btn-sm"; b.textContent="Enquire on WhatsApp"; bindWA(b, s.name);
+  c.appendChild(b); grid.appendChild(c);
+  sel.add(new Option(s.name));
+  const tr = document.createElement("tr"); tr.innerHTML = `<td>${s.name}</td><td><strong>${s.price}</strong></td>`; body.appendChild(tr);
+});
+
+document.getElementById("enqForm").addEventListener("submit", e=>{
+  e.preventDefault();
+  openWA(defaultMsg({
+    service:sel.value, subject:fSubject.value, pages:fPages.value,
+    format:fFormat.value, date:fDate.value, delivery:fDelivery.value
+  }));
+});
+</script>
+</body>
+</html>
